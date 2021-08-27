@@ -42,3 +42,29 @@
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
 
+### Model Details
+* **Columns used as inputs in the final model**:x_names
+* **Column(s) used as target(s) in the final model**:
+* **CType of model**:Decision Tree
+* **CSoftware used to implement the model**:Python
+* **CVersion of the modeling software**:0.22.2.post1
+* **CHyperparameters or other settings of your model**:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=6, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=12345, splitter='best')
+###  Quantitative Analysis
+* **Metrics used to evaluate your final model**:AUC python
+* **State the final values of the metrics for all data: training, validation, and test data**:
+* **Provide any plots related to your data or final model -- be sure to label the plots!**:
+
+### Ethical considerations (6 pts.):
+### Describe potential negative impacts of using your model**:Variable importance"
+* **Math or software problems**:In recalculation result, the ratio of giving credit extention for hispanic to white 0.83:1 ,which means that for every 1000 white people receive credit extention, only 830 hispanic people could get the same treatment. This could not be completely avoided, but we can tried to improve this. 
+* **Real-world risks: who, what, when or how**:In real world, the credit extension difference among different groups of people will be enlarged as the population base grows larger. Then the fairness and parity issues would be enlarged while using this model. 
+### Describe potential uncertainties relating to the impacts of using your model:
+* **Math or software problems**:the "pay_0" variable is extremely important based on its position on the graph of "Variable importance". The trend on ""Variable Importance" graphy is quite sharp that could cause quite big change on result once any tiny bit change on the "pay_0" variable.
+* **Real-world risks: who, what, when or how?**: Firstly, this would cause consumers' privacy problem. Secondly, the "pay_0" variable is the data about consumers' latest payment status, and the accuracy of this variable highly depends on the steady of the econnomic situation. 
+### Describe any unexpected or results
+* The economic situation is highly unpredictable. Therefore once there's anything change on economic situation, it would seriously impact on this variable and the accuracy of the result from this variable.
