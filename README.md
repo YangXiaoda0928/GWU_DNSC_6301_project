@@ -61,13 +61,15 @@ Training AUC: 0.78 Validation AUC: 0.75 Test AUC: 0.74 Asian-to-White AIR: 1.00 
 * **Provide any plots related to your data or final model -- be sure to label the plots!**:
 
 ### Ethical considerations (6 pts.):
-* **Describe potential negative impacts of using your model**:Variable importance"
-   *Math or software problems**:In recalculation result, the ratio of giving credit extention for hispanic to white 0.83:1 ,which means that for every 1000 white people receive credit extention, only 830 hispanic people could get the same treatment. This could not be completely avoided, but we can tried to improve this. 
+* **Describe potential negative impacts of using your model**:
+   *Math or software problems:In recalculation result, the ratio of giving credit extention for hispanic to white 0.83:1 ,which means that for every 1000 white people receive credit extention, only 830 hispanic people could get the same treatment. This could not be completely avoided, but we can tried to improve this. 
    
    *Real-world risks: who, what, when or how**:In real world, the credit extension difference among different groups of people will be enlarged as the population base grows larger. Then the fairness and parity issues would be enlarged while using this model. 
+   
 * **Describe potential uncertainties relating to the impacts of using your model**:
    *Math or software problems**:the "pay_0" variable is extremely important based on its position on the graph of "Variable importance". The trend on ""Variable Importance" graphy is quite sharp that could cause quite big change on result once any tiny bit change on the "pay_0" variable.
    
    *Real-world risks: who, what, when or how?: Firstly, this would cause consumers' privacy problem. Secondly, the "pay_0" variable is the data about consumers' latest payment status, and the accuracy of this variable highly depends on the steady of the econnomic situation. 
+   
 * **Describe any unexpected or results**
    *The economic situation is highly unpredictable. Therefore once there's anything change on economic situation, it would seriously impact on this variable and the accuracy of the result from this variable.
