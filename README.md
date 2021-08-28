@@ -44,7 +44,7 @@
 
 ### Model Details
 * **Columns used as inputs in the final model**:x_names
-* **Column(s) used as target(s) in the final model**:
+* **Column(s) used as target(s) in the final model**:y_name
 * **CType of model**:Decision Tree
 * **CSoftware used to implement the model**:Python
 * **CVersion of the modeling software**:0.22.2.post1
