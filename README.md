@@ -59,6 +59,8 @@
 * **State the final values of the metrics for all data: training, validation, and test data**:
 Training AUC: 0.78 Validation AUC: 0.75 Test AUC: 0.74 Asian-to-White AIR: 1.00 Black-to-White AIR: 0.85 Female-to-Male AIR: 1.02 Hispanic-to-White AIR: 0.83
 * **Provide any plots related to your data or final model -- be sure to label the plots!**:
+  * Iteration plot: the effect comparison between train AUC and validation AUC
+  * Final decision tree: interpretate the entire model
 
 ### Ethical considerations (6 pts.):
 * **Describe potential negative impacts of using your model**:
