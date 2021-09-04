@@ -6,7 +6,7 @@
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [6301finalversion.ipynb](6301finalversion.ipynb)
+* **Model implementation code**: https://colab.research.google.com/drive/1N8NqaCfOOemCfrfoI6zkWtsbrcgBSy6a?usp=sharing
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
