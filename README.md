@@ -67,7 +67,7 @@ Training AUC: 0.78 Validation AUC: 0.75 Test AUC: 0.74 Asian-to-White AIR: 1.00 
 * **Provide any plots related to your data or final model -- be sure to label the plots!**:
   * Iteration plot: the effect comparison between train AUC and validation AUC
   * Final decision tree: interpretate the entire model
-  * 
+  * ![image](![download (1)](https://user-images.githubusercontent.com/89283868/132112696-869aba38-c92e-433e-9d2c-cd0ac047795f.png)
 
 ### Ethical considerations (6 pts.):
 * **Describe potential negative impacts of using your model**:
